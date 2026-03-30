@@ -1,16 +1,15 @@
-# React + Vite
+Portfólio Profissional | Desenvolvedor Web Front-end
+Este projeto foi desenvolvido para centralizar meus principais trabalhos e demonstrar minhas competências técnicas na criação de interfaces modernas, responsivas e de alta performance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tecnologias e Ferramentas
+React.js & Vite: Utilizados para garantir uma Single Page Application (SPA) extremamente veloz, com estrutura de componentes reutilizáveis.
+JavaScript (ES6+): Implementação de lógica para interatividade e manipulação de estados.
+HTML5 & CSS3: Foco em semântica, acessibilidade e estilização moderna com suporte a Dark Mode.
+SVG (Scalable Vector Graphics): Manipulação de ícones via código para garantir nitidez absoluta e performance (ícones leves que não pesam no carregamento).
+Git & GitHub: Versionamento de código e fluxo de trabalho profissional.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 O que foi implementado
+Branding & UI/UX: Criação de uma identidade visual própria, com logo minimalista personalizado para o favicon da aplicação, garantindo uma experiência de marca coesa.
+Otimização de Performance: Uso de técnicas de carregamento de ativos e limpeza de cache para assegurar que o usuário sempre veja a versão mais atual do projeto.
+Responsividade: Interface totalmente adaptada para dispositivos móveis e desktop.
+Integração de Projetos: Exibição técnica de projetos reais.
