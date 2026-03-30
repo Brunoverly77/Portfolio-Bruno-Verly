@@ -1,0 +1,45 @@
+body {
+  background-color: #0B0E14; 
+  color: #E2E8F0;           
+  font-family: 'Inter', sans-serif; 
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@media (max-width: 910px) {
+  .about-container {
+    flex-direction: column-reverse !important; 
+    padding: 120px 5% 60px 5% !important;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text h1 {
+    font-size: 3rem !important;
+  }
+
+  .role-wrapper {
+    justify-content: center;
+    font-size: 1.8rem !important;
+  }
+
+  .button-group {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .glow-effect {
+    width: 280px !important;
+    height: 280px !important;
+  }
+}

@@ -1,0 +1,110 @@
+.experience-container {
+  min-height: 100vh;
+  padding: 100px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: var(--accent-color); 
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+  opacity: 0.3;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) { left: 0; text-align: right; }
+.timeline-item:nth-child(even) { left: 50%; text-align: left; }
+
+.timeline-content {
+  padding: 20px;
+  background: var(--card-bg, rgba(125, 125, 125, 0.1)); 
+  border: 1px solid var(--accent-color);
+  border-radius: 15px;
+  position: relative;
+  color: var(--text-color) !important; 
+  transition: all 0.3s ease;
+}
+
+.timeline-content h3 {
+  color: var(--accent-color);
+  margin: 10px 0;
+}
+
+.description {
+  color: var(--text-color) !important;
+}
+
+.company {
+  color: var(--text-color) !important;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.period {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(0, 210, 255, 0.1);
+  color: var(--accent-color);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.timeline-content ul li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  color: var(--text-color) !important;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -8px;
+  background-color: var(--bg-color);
+  border: 4px solid var(--accent-color);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(even)::after {
+  left: -8px;
+}
+
+@media (max-width: 768px) {
+  .timeline::after { left: 31px; }
+  .timeline-item { 
+    width: 100%; 
+    padding-left: 70px; 
+    padding-right: 25px; 
+    text-align: left !important; 
+  }
+  .timeline-item:nth-child(even) { left: 0; }
+  .timeline-item::after { left: 23px !important; }
+}

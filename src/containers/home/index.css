@@ -1,0 +1,83 @@
+html, body {
+  height: auto !important;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.3s, color 0.3s; 
+}
+
+.dark {
+  --bg-color: #0B0E14;
+  --text-color: #F8FAFC;
+  --accent-color: #00D1FF;
+}
+
+.light {
+  --bg-color: #F8FAFC;
+  --text-color: #0B0E14;
+  --accent-color: #0070F3; 
+}
+
+.container {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  padding: 20px 60px; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  color: var(--accent-color);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  gap: 25px; 
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.menu a:hover {
+  color: var(--accent-color);
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.light .timeline-content, 
+.light .timeline-content ul li, 
+.light .company {
+  color: #0B0E14 !important;
+}
+
+.dark .timeline-content, 
+.dark .timeline-content ul li, 
+.dark .company {
+  color: #F8FAFC !important;
+}
+
