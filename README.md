@@ -2,6 +2,11 @@ Portfólio Profissional | Desenvolvedor Web Front-end
 
 Este projeto foi desenvolvido para centralizar meus principais trabalhos e demonstrar minhas competências técnicas na criação de interfaces modernas, responsivas e de alta performance.
 
+Pré-visualização
+Aqui está uma demonstração visual do projeto finalizado:
+
+![WhatsApp Image 2026-03-30 at 10 03 09 PM](https://github.com/user-attachments/assets/470b75c9-d945-4a87-aabc-c04881a1dafd)
+
 Tecnologias e Ferramentas
 
 React.js & Vite: Utilizados para garantir uma Single Page Application (SPA) extremamente veloz, com estrutura de componentes reutilizáveis.
@@ -16,3 +21,9 @@ Branding & UI/UX: Criação de uma identidade visual própria, com logo minimali
 Otimização de Performance: Uso de técnicas de carregamento de ativos e limpeza de cache para assegurar que o usuário sempre veja a versão mais atual do projeto.
 Responsividade: Interface totalmente adaptada para dispositivos móveis e desktop.
 Integração de Projetos: Exibição técnica de projetos reais.
+
+1. Clonar o repositório
+No seu terminal, digite:
+
+```bash
+git clone [https://github.com/BrunoVerly77/Portfolio.git](https://github.com/BrunoVerly77/Portfolio.git)
