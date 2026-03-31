@@ -46,7 +46,7 @@ function About() {
         </p>
       <div className="button-group">
       <a 
-        href={`${import.meta.env.BASE_URL}Curriculo_Bruno_Verly.pdf`}
+        href="/Curriculo_Bruno_Verly.pdf"
         className="download-btn" 
         download="Curriculo_Bruno_Verly.pdf"
       >
