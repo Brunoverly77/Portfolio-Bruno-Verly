@@ -27,3 +27,15 @@ No seu terminal, digite:
 
 ```bash
 git clone [https://github.com/BrunoVerly77/Portfolio.git](https://github.com/BrunoVerly77/Portfolio.git)
+```
+
+2. Instalar as dependências
+
+```bash
+npm install
+```
+
+3. Iniciar o projeto
+```bash
+git clone [https://github.com/BrunoVerly77/Portfolio.git](https://github.com/BrunoVerly77/Portfolio.git)
+
