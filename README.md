@@ -37,5 +37,4 @@ npm install
 
 3. Iniciar o projeto
 ```bash
-git clone [https://github.com/BrunoVerly77/Portfolio.git](https://github.com/BrunoVerly77/Portfolio.git)
-
+npm run dev
