@@ -45,13 +45,13 @@ function About() {
           tecnologias como React.js e JavaScript para entregar soluções web eficientes.
         </p>
       <div className="button-group">
-          <a 
-          href="/Curriculo_Bruno_Verly.pdf" 
-          className="download-btn" 
-          download="Curriculo_Bruno_Verly.pdf"
-        >
-          Baixar Currículo
-        </a>
+      <a 
+        href={`${import.meta.env.BASE_URL}Curriculo_Bruno_Verly.pdf`}
+        className="download-btn" 
+        download="Curriculo_Bruno_Verly.pdf"
+      >
+        Baixar Currículo
+      </a>
         </div>
       </div>
       
