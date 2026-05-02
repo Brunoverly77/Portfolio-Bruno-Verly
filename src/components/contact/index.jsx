@@ -69,10 +69,10 @@ const Contact = () => {
             <p>github.com/Brunoverly77</p>
           </a>
 
-          <a href="https://www.instagram.com/brunoverly7/" target="_blank" rel="noopener noreferrer" className="contact-card-v2">
+          <a href="https://www.instagram.com/brverly7/" target="_blank" rel="noopener noreferrer" className="contact-card-v2">
             <FaInstagram className="card-icon-v2" />
             <h3>Instagram</h3>
-            <p>@brunoverly7</p>
+            <p>@brverly7</p>
           </a>
         </div>
 

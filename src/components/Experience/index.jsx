@@ -12,6 +12,15 @@ function Experience() {
         "Criação e formatação de documentos e relatórios no Word."
       ]
     },
+       {
+      role: "Administrativo",
+      company: "Rio de Janeiro, RJ",
+      period: "Experiência Profissional",
+      description: [
+        "Era responsável por monitorar o aplicativo de ponto para verificar atrasos, chegadas antecipadas e horas extras dos colaboradores.",
+        "Realizava o cadastro de materiais de construção no sistema da empresa."
+      ]
+    },
     {
       role: "Análise e Desenv. de Sistemas",
       company: "Univ. Cruzeiro do Sul",
@@ -20,7 +29,7 @@ function Experience() {
         "Foco em desenvolvimento web (Front-end e Back-end).",
         "Estudo de estruturas de dados, algoritmos e bancos de dados SQL/NoSQL."
       ]
-    }
+    },
   ];
 
   return (

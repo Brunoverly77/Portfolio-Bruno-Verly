@@ -46,9 +46,9 @@ function About() {
         </p>
       <div className="button-group">
       <a 
-        href="/Curriculo_Bruno_Verly.pdf"
+        href="/BrunoVerly CV 2026.pdf"
         className="download-btn" 
-        download="Curriculo_Bruno_Verly.pdf"
+        download="BrunoVerly CV 2026.pdf"
       >
         Baixar Currículo
       </a>
