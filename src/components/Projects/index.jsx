@@ -4,7 +4,7 @@ import imgConversor from '../../assets/conversor.png';
 import imgBandeiras from '../../assets/acerteabandeira.jpg'; 
 import imgRotina from '../../assets/planejamento.jpg';
 import imgAdivinhacao from '../../assets/advinha.png';    
-import imgCashback from '../../assets/cashback.png'; 
+import imgCashback from '../../assets/Cashback.png'; 
 
 const projectsData = [
   {
